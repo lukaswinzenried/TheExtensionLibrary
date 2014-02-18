@@ -12,17 +12,16 @@
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
-<<<<<<< HEAD
-    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\..\..\Visual Studio 2012\Th47J\Main\</SolutionDir>
     <RestorePackages>true</RestorePackages>
-=======
-    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\..\..\visual studio 2012\Projects\The47jobs\</SolutionDir>
-    <RestorePackages>true</RestorePackages>
-    <SccProjectName>SAK</SccProjectName>
-    <SccLocalPath>SAK</SccLocalPath>
-    <SccAuxPath>SAK</SccAuxPath>
-    <SccProvider>SAK</SccProvider>
->>>>>>> d1bacc0d1ce5664dc91a43d730391476f25920bb
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\..\..\..\Source\Repos\CryptoArbitrage\</SolutionDir>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -42,18 +41,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="JavaScriptEngineSwitcher.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c608b2a8cc9e4472, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Main\packages\JavaScriptEngineSwitcher.Core.1.0.0\lib\net40\JavaScriptEngineSwitcher.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="JavaScriptEngineSwitcher.Msie">
-      <HintPath>..\..\Main\packages\JavaScriptEngineSwitcher.Msie.1.0.0\lib\net40\JavaScriptEngineSwitcher.Msie.dll</HintPath>
-    </Reference>
-    <Reference Include="MsieJavaScriptEngine">
-      <HintPath>..\..\Main\packages\MsieJavaScriptEngine.1.2.0\lib\net40\MsieJavaScriptEngine.dll</HintPath>
-    </Reference>
     <Reference Include="SgmlReaderDll">
-      <HintPath>..\..\Main\packages\SgmlReader.1.8.11\lib\4.0\SgmlReaderDll.dll</HintPath>
+      <HintPath>..\..\..\..\..\Source\Repos\CryptoArbitrage\packages\SgmlReader.1.8.11\lib\4.0\SgmlReaderDll.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -72,7 +61,6 @@
     <Compile Include="Text\StringBuilder.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
