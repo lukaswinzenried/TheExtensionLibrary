@@ -56,6 +56,7 @@
     <Compile Include="Collections\Generic\EnumerableExtensions.cs" />
     <Compile Include="Collections\Generic\ListExtensions.cs" />
     <Compile Include="Collections\Specialized\NameValueCollectionExtensions.cs" />
+    <Compile Include="DateTimeExtention.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StringExtention.cs" />
     <Compile Include="Text\StringBuilder.cs" />
